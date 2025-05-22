@@ -5,3 +5,5 @@ from .fused_relu_sigmoid_v0 import fused_relu_sigmoid
 from .fused_add_relu_v2 import fused_add_relu
 from .fused_relu_add_v1 import fused_relu_add
 from .fused_relu_add_v2 import fused_relu_add
+from .fused_layer_norm_dropout_v0 import fused_layer_norm_dropout
+from .fused_layer_norm_gelu_v0 import fused_layer_norm_gelu

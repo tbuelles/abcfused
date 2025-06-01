@@ -1,0 +1,32 @@
+N, K, D = 100000, 32, 128
+-------------------------------------------
+| op_torch |
+Peak memory alloc:              10197.34 MB
+Peak memory reserved:           11813.26 MB
+Forward:                            6.35 ms
+Total time:                         6.35 ms
+-------------------------------------------
+| op_torch2 |
+Peak memory alloc:              10146.14 MB
+Peak memory reserved:           11813.26 MB
+Forward:                            6.39 ms
+Total time:                         6.39 ms
+-------------------------------------------
+| op_torch3 |
+Peak memory alloc:              10197.34 MB
+Peak memory reserved:           11813.26 MB
+Forward:                           27.65 ms
+Total time:                        27.65 ms
+-------------------------------------------
+| op_torch_compile |
+Peak memory alloc:              10146.14 MB
+Peak memory reserved:           10173.28 MB
+Forward:                            4.02 ms
+Total time:                         4.02 ms
+-------------------------------------------
+| op_triton |
+Peak memory alloc:              10094.94 MB
+Peak memory reserved:           10120.86 MB
+Forward:                            2.35 ms
+Total time:                         2.35 ms
+-------------------------------------------

@@ -7,7 +7,8 @@ import os
 
 from numpy import require
 
-from abcfused.utils.dev_utils import clone_data, assert_allclose, filter_kwargs, stats_fn
+from abcfused.utils.dev_utils import assert_allclose, filter_kwargs, stats_fn
+from abcfused.utils.data_utils import clone_data
 os.environ["TRITON_PRINT_AUTOTUNING"] = "1"
 os.environ["TRITON_DEBUG"] = "1"
 # os.environ["TRITON_INTERPRET"] = "1"

@@ -9,6 +9,6 @@ from .fused_layer_norm_dropout_v0 import fused_layer_norm_dropout
 from .fused_layer_norm_matmul_v0 import fused_layer_norm_matmul
 from .fused_layer_norm_matmul_v1 import fused_layer_norm_matmul
 from .fused_matmul_gelu_v2 import fused_matmul_gelu
-from .fused_matmul_softmax_v4 import fused_matmul_softmax
 from .fused_layer_norm_gelu_v24 import fused_layer_norm_gelu
 from .fused_matmul_layer_norm_v12 import fused_matmul_layer_norm
+from .fused_matmul_softmax_v5 import fused_matmul_softmax

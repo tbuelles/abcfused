@@ -11,4 +11,4 @@ from .fused_layer_norm_matmul_v1 import fused_layer_norm_matmul
 from .fused_matmul_gelu_v3 import fused_matmul_gelu
 from .fused_matmul_layer_norm_v15 import fused_matmul_layer_norm
 from .fused_matmul_softmax_v7 import fused_matmul_softmax
-from .fused_layer_norm_gelu_v33 import fused_layer_norm_gelu
+from .fused_layer_norm_gelu_v34 import fused_layer_norm_gelu
